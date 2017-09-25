@@ -1,0 +1,100 @@
+<html class="with-statusbar-overlay">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+  <title>Disney</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"/> 
+  <link rel="stylesheet" href="lib/css/framework7.ios.css"/>
+  <link rel="stylesheet" href="lib/css/bootstrap.css"/>
+  <link rel="stylesheet" href="lib/css/materialadmin.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="lib/css/framework7.material.css"/>
+  <link rel="stylesheet" href="lib/css/boostbox.css"/> 
+  <link rel="stylesheet" href="css/app.css"/>
+</head>
+<body>
+
+ <!-- Status bar overlay for full screen mode (PhoneGap) -->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal">
+    </div>
+    <!-- Views -->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar body-dark suBarNB">
+            <div class="navbar-inner">
+              <div class="left"><a href="#" data-panel="left" class="link open-panel icon-only"><i class="" style="visibility: hidden;">h</i></a></div>
+              <div class="center sliding headline_font" style="margin-left:31.5%;">
+                  Disney
+              </div>
+              <div class="right">
+                <div><a href="" class=""></a></div>
+                <form class="searchbar serchBar">
+                    <div class="searchbar-input">
+                        <input  id="search" type="search" placeholder="BUSCAR VINO" class="font_caption busqueda"/>
+                        <a href="#" class="searchbar-clear font_caption"></a>
+                    </div>
+                    <a href="#" class="searchbar-cancel">Cancel</a>
+                </form>
+              </div>
+              <!--Sub Nav Bar-->
+              <div class="subnavbar body-dark pd-top27 subnav">
+                <div class="buttons-row">
+                  <a href="#tab1" class="button tab-link active vinos body-dark default subheading left_bordernone">Demo</a>
+                  <a href="#tab2" class="button tab-link demo destilados body-dark default subheading">Demo 2</a>
+                </div>
+
+
+              </div>
+            </div>
+
+        </div>
+        
+        <br/>
+        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Page, "data-page" contains page name -->
+          <div data-page="index" class="page">
+            <div class="page-content">
+              <div class="index-content">
+                
+              </div>
+            </div>
+          </div>
+        </div>   
+ </div>
+
+        <!-- Bottom Toolbar-->
+        <div class="toolbar mifel2">
+          <div class="toolbar-inner">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  <script type="text/javascript" src="lib/jquery-3.2.1.js"></script>
+  <script type="text/javascript" src="lib/modernizr.js"></script>
+  <script type="text/javascript" src="lib/framework7.js"></script>
+  <script src="lib/BootstrapFixed.js"></script>
+  <script src="lib/bootstrap.min.js"></script>
+  <script src="lib/spin.min.js"></script>
+  <script src="lib/jquery.slimscroll.min.js"></script>
+  <script src="lib/jquery.validate.min.js"></script>
+  <script src="lib/additional-methods.min.js"></script>
+
+
+
+  
+  <script data-main="app" src="lib/require.js"></script>
+
+</body>
+</html>
+

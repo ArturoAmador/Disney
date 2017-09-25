@@ -1,0 +1,387 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.aline_wrapers{
+	margin-bottom: -18%;
+}
+
+
+.disable_start{
+	color: grey !important;
+}
+
+
+
+.close_popup_comprar_vino{
+	color: gray;
+    opacity: 0.28;
+}
+
+.comprar_popup_vino_imagen{
+	max-width: 100px;
+    min-width: 100px;
+    margin-left: 59px;
+}
+
+.entregar_mesero{
+	background: #ac0909 !important;
+    height: 30px;
+    width: 149px;
+    margin-left: 111px;
+    margin-top: 20px;
+}
+
+.text_center{
+	text-align: center;
+}
+
+.ban_img
+{
+
+}
+
+.wrapper
+{
+	
+}
+
+.mg_tp10
+{
+	margin-top: 10% !important;
+}
+
+.subnav
+{
+	position: fixed !important;
+}
+
+.checkradiobox
+{
+	border-color: black !important; 
+}
+
+.black_color
+{
+	color: #000000 !important;
+}
+
+.left_bordernone
+{
+	border-left: none !important;
+}
+
+.demobutton
+{
+	position: absolute;
+	right: 13px;
+	visibility: visible;
+	top: 16px;
+}
+
+.serchBar
+{
+	visibility: hidden;
+	background: transparent !important;
+	top: 13px;
+}
+
+.max_height182
+{
+	max-height: 182px;
+}
+
+.width0
+{
+	width: 0px !important;
+}
+
+.progress_bar
+{
+	background-color: #b72a2a !important;
+}
+
+.banner_closeStyle
+{
+	position: fixed;
+	right: 3%;
+	color: white;
+	bottom: 92%;
+	opacity: 0.5;
+    font-weight: 100;
+}
+
+.filter
+{
+	border-bottom: 1px solid #354046;
+}
+.mg_top5
+{
+	margin-top: 5%;
+}
+
+.mg_lf80
+{
+	margin-left: 68%;
+}
+
+.br_rd
+{
+	border-radius: 5px;
+}
+
+.mg_top
+{
+	margin: 12px 0 0 !important;
+}
+
+
+.greyline
+{
+	border-bottom: 0.5px solid #aeaeae;
+}
+
+.buy
+{
+	background: #ac0909 !important;
+}
+
+.publicity
+{
+	margin-top: 1%;
+	width: 95%;
+    height: 67%;
+    background-image:url('http://www.aldopalafox.mx/wp-content/uploads/2015/11/vino-tributo-palafox-2012.png') 
+
+}
+
+.see_more
+{
+	background: #ac0909 !important;
+    height: 30px;
+    width: 81px;
+}
+
+.pd-top27
+{
+	padding-top: 2%;
+}
+
+.default
+{
+	color: white;
+	background-color: #354046 !important;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+.suBarNB
+{
+	width: 102%;
+	margin-left: -1%;
+}
+
+.vinos
+{
+	border-bottom: 3px solid red;
+	visibility: visible;
+}
+
+.destilados
+{
+	border-bottom: 3px solid red;
+	visibility: visible;
+}
+
+.starts
+{
+	color: #b72a2a;
+}
+.banner
+{
+	background-color: #f2f3f3;
+    color: #333333;
+    border-top: 2px solid #354046;
+    
+    max-height: 50%;
+}
+
+.wine_img
+{
+	height: 225px;
+}
+
+.body-dark {
+    background: #354046;
+}
+
+.navBar
+{
+	color: white;
+}
+
+.posision
+{
+	height: 8%;
+}
+
+.title_font
+{
+    font-size: 2.122em !important;
+    opacity: 0.87;
+    font-weight: lighter;
+}
+
+.headline_font
+{
+    font-size: 2.496em !important;
+    opacity: 0.87;
+    font-weight: lighter;
+}
+
+.headlineBaner_font
+{
+    font-size: 2.496em !important;
+    opacity: 0.87;
+    font-weight: lighter;
+}
+
+
+.subheading
+{
+    font-size: 0.998em !important;
+    
+}
+
+.body3
+{
+	font-size: 0.749em !important;
+    opacity: 0.87;
+    font-weight: lighter;
+
+}
+
+
+.banner-sected
+{
+	background-color: #354046;
+	border-top: 2px solid #354046;
+	color: #f2f3f3;
+}
+
+.banner_size
+{
+	width: 95% !important;
+	height: 100% !important;
+	position: absolute;
+	top: 60% !important;
+	left: 33% !important;
+}
+
+.filter_Style
+{
+	width: 13% !important;
+}
+
+.info_wineIMG
+{
+	height: 74%;
+}
+
+.body2
+{
+    font-size: 0.874em !important;
+    opacity: 0.87;
+    font-weight: lighter;
+}
+
+.body1
+{
+    font-size: 0.874em !important;
+    opacity: 0.87;
+}
+
+.font_buttom
+{
+    font-size:  0.874em !important;
+    opacity: 0.87;
+    font-weight: lighter;
+}
+
+.font_caption
+{
+    font-size: 0.874em !important;
+    opacity: 0.54;
+}
+
+@media only screen and (max-width: 800px) {
+
+	.headline_font{
+		font-size: 1.496em !important;
+    	opacity: 0.87;
+    	margin-left: 30% !important;
+	}
+
+	.headlineBaner_font{
+    	font-size: 1.496em !important;
+    	opacity: 0.87;
+	}
+
+	.title_font{
+		font-size: 1.722em !important;
+    	opacity: 0.87;
+    	font-weight: lighter;
+	}
+
+	.see_more {
+    	background: #ac0909 !important;
+    	height: 30px;
+    	width: 60px;
+	}
+
+	.font_buttom{
+		font-size: 0.820em !important;
+	}
+
+	.banner_size {
+    	width: 90% !important;
+    	height: 88% !important;
+    	position: absolute;
+    	top: 48% !important;
+    	left: 46% !important;
+	}
+
+	.mg_top {
+    	margin: 10px 0 0 !important;
+	}
+
+	.info_wineIMG {
+    	height: 50%;
+	}
+
+	.wrapper{
+		margin-bottom: -20%;
+	}
+
+	.ban_img{
+		width: 100%;
+		height: 28%;
+	}
+
+	.banner{
+		background-color: #f2f3f3;
+	    color: #333333;
+	    border-top: 2px solid #354046;
+	    min-height: 30%;
+	    max-height: 30%;
+	}
+
+	.banner-sected{
+		background-color: #354046;
+		border-top: 2px solid #354046;
+		color: #f2f3f3;
+	}
+
+}
+
