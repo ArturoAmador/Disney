@@ -2,6 +2,12 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+.elemento_noticia{
+	border-radius: 7px;
+	padding: 8px 15px;
+	background: #fff;
+	box-sizing: border-box;
+}
 
 .submit_button_contacto{
 	color: #fff;
