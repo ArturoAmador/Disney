@@ -125,10 +125,10 @@
 
 						<div class="list-block">
 							<ul>
-								<li>
+								<li class="creditCard">
 							      <label class="label-radio item-content">
 							        <!-- Checked by default -->
-							        <input type="radio" name="my-radio" value="Books" checked="checked">
+							        <input id="PayPal" type="radio" name="my-radio" value="Books" checked="checked">
 							        <div class="item-media">
 							          <i class="icon icon-form-radio"></i>
 							        </div>
@@ -138,12 +138,11 @@
 							      </label>
 							    </li>
 
-							    <li class="accordion-item">
+							    <li class="creditCard">
 
-							    	<a href="#" ></a>
 							      <label class="label-radio item-content">
 							        <!-- Checked by default -->
-							        <input type="radio" name="my-radio" value="Books" checked="checked">
+							        <input id="credit" type="radio" name="my-radio" value="Books" checked="checked" class="creditCard">
 							        <div class="item-media">
 							          <i class="icon icon-form-radio"></i>
 							        </div>
@@ -151,13 +150,95 @@
 							          <div class="item-title">Tarjeta de Credito</div>
 							        </div>
 							      </label>
-							      
+							     
+							    </li>
 
-							      <div class="accordion-item-content">
-							        <div class="content-block">
-							          <p>Item 2 content. Lorem ipsum dolor sit amet...</p>
+							    <li class="fadein hide">
+							      <div class="item-content">
+							        <div class="item-inner">
+							          <div class="item-title label">Nombre</div>
+							          <div class="item-input">
+							            <input type="text" placeholder="Titular de la Tarjeta">
+							          </div>
 							        </div>
 							      </div>
+							    </li>
+
+							    <li class="fadein hide">
+							      <div class="item-content">
+							        <div class="item-inner">
+							          <div class="item-title label">Número de la Tarjeta</div>
+							          <div class="item-input">
+							            <input type="text" placeholder="Número de la Tarjeta">
+							          </div>
+							        </div>
+							      </div>
+							    </li>
+
+							    <li class="fadein hide">
+							      <div class="item-content">
+							        <div class="item-inner">
+							          <div class="item-title label">Codigo</div>
+							          <div class="item-input">
+							            <input type="text" placeholder="Codijo de seguridad">
+							          </div>
+							        </div>
+							      </div>
+							    </li>
+
+							    <li class="fadein text_center hide">Fecha de Vencimiento</li>
+
+							    <li class="fadein hide">
+							      <div class="row">
+							      	<div class="col-10"></div>
+							      	<div class="col-40">
+							      		<select>
+							      			<option>Mes</option>
+							      			<option>Enero</option>
+							      			<option>Febrero</option>
+							      			<option>Marzo</option>
+							      			<option>Abril</option>
+							      			<option>Mayo</option>
+							      			<option>Junio</option>
+							      			<option>Julio</option>
+							      			<option>Agosto</option>
+							      			<option>Septiembre</option>
+							      			<option>Octubre</option>
+							      			<option>Noviembre</option>
+							      			<option>Diciembre</option>
+							      		</select>
+							      	</div>
+							      	<div class="col-40">
+							      		<select>
+							      			<option>Año</option>
+							      			<option>17</option>
+							      			<option>18</option>
+							      			<option>19</option>
+							      			<option>20</option>
+							      			<option>21</option>
+							      			<option>22</option>
+							      			<option>23</option>
+							      			<option>24</option>
+							      			<option>25</option>
+							      			<option>26</option>
+							      			<option>27</option>
+							      			<option>28</option>
+							      			<option>29</option>
+							      			<option>30</option>
+							      		</select>
+							      	</div>
+							      </div>
+							    </li>
+
+							    <li>
+							    	<div class="row">
+							    		<div class="col-10"></div>
+								    	<div class="col-80">
+								    		<p><a href="#" class="button button-round active">Se Parte del cambio</a></p> 
+								    	</div>
+								    	<div class="col-10"></div>
+							    	</div>
+							    	
 							    </li>
 							</ul>
 						</div>
@@ -169,4 +250,52 @@
 		</div>
 		<div class="col-33"></div>
 	</div>
+
+	<br/>
+	<tr>
+		<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%;
+			padding-top: 25px;" class="social-icons"><table
+			width="256" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse; border-spacing: 0; padding: 0;">
+			<tr>
+
+				<!-- ICON 1 -->
+				<td align="center" valign="middle" style="margin: 0; padding: 0; padding-left: 10px; padding-right: 10px; border-collapse: collapse; border-spacing: 0;"><a target="_blank"
+					href=""
+				style="text-decoration: none;"><img border="0" vspace="0" hspace="0" style="padding: 0; margin: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: inline-block;
+					color: #000000;"
+					alt="F" title="Facebook"
+					width="44" height="44"
+					src="https://raw.githubusercontent.com/konsav/email-templates/master/images/social-icons/facebook.png"></a></td>
+
+				<!-- ICON 2 -->
+				<td align="center" valign="middle" style="margin: 0; padding: 0; padding-left: 10px; padding-right: 10px; border-collapse: collapse; border-spacing: 0;"><a target="_blank"
+					href=""
+				style="text-decoration: none;"><img border="0" vspace="0" hspace="0" style="padding: 0; margin: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: inline-block;
+					color: #000000;"
+					alt="T" title="Twitter"
+					width="44" height="44"
+					src="https://raw.githubusercontent.com/konsav/email-templates/master/images/social-icons/twitter.png"></a></td>				
+
+				<!-- ICON 3 -->
+				<td align="center" valign="middle" style="margin: 0; padding: 0; padding-left: 10px; padding-right: 10px; border-collapse: collapse; border-spacing: 0;"><a target="_blank"
+					href=""
+				style="text-decoration: none;"><img border="0" vspace="0" hspace="0" style="padding: 0; margin: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: inline-block;
+					color: #000000;"
+					alt="G" title="Google Plus"
+					width="44" height="44"
+					src="https://raw.githubusercontent.com/konsav/email-templates/master/images/social-icons/googleplus.png"></a></td>		
+
+				<!-- ICON 4 -->
+				<td align="center" valign="middle" style="margin: 0; padding: 0; padding-left: 10px; padding-right: 10px; border-collapse: collapse; border-spacing: 0;"><a target="_blank"
+					href=""
+				style="text-decoration: none;"><img border="0" vspace="0" hspace="0" style="padding: 0; margin: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: inline-block;
+					color: #000000;"
+					alt="I" title="Instagram"
+					width="44" height="44"
+					src="https://raw.githubusercontent.com/konsav/email-templates/master/images/social-icons/instagram.png"></a></td>
+
+			</tr>
+			</table>
+		</td>
+	</tr>
 </div>

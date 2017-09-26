@@ -2,6 +2,16 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+.social_NetWork_media{
+	position: absolute;
+    bottom: 30px;
+    left: 40%;
+}
+
+.height_200px{
+	height: 200px;
+}
+
 .elemento_noticia{
 	border-radius: 7px;
 	padding: 8px 15px;

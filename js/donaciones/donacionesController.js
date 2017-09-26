@@ -9,7 +9,25 @@ define(["app","js/donaciones/donacionesView", "js/donaciones/donacionesModel"], 
 		element: '.sentinel',
 		event: 'click',
 		handler: sentinel,
+	},
+	{
+		element: '.creditCard',
+		event: 'click',
+		handler: creditCard,
 	}];	
+
+	function creditCard(){
+
+		if ($("#credit").prop( "checked" )) {
+			console.log("Donas por tarjeta de credito");
+			$(".fadein").removeClass('hide');
+			$(".fadein").show(1000);
+
+		}else if ($("#PayPal").prop( "checked" )){
+			console.log("Donas por paypal")
+			$(".fadein").hide(1000);
+		}
+	}
 
 	function about(){
 		console.log("about");
@@ -22,7 +40,7 @@ define(["app","js/donaciones/donacionesView", "js/donaciones/donacionesModel"], 
 		$("#otro").removeClass("active");
 
 		$(e.target).addClass("active");
-		console.log(e);
+		
 	}
 	
 
