@@ -4,10 +4,25 @@ define(["app","js/donaciones/donacionesView", "js/donaciones/donacionesModel"], 
 		element: '.about',
 		event: 'click',
 		handler: about,
+	},
+	{
+		element: '.sentinel',
+		event: 'click',
+		handler: sentinel,
 	}];	
 
 	function about(){
 		console.log("about");
+	}
+
+	function sentinel(e){
+		$("#100").removeClass("active");
+		$("#200").removeClass("active");
+		$("#500").removeClass("active");
+		$("#otro").removeClass("active");
+
+		$(e.target).addClass("active");
+		console.log(e);
 	}
 	
 
