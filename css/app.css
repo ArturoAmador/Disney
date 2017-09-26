@@ -2,6 +2,13 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+
+.submit_button_contacto{
+	color: #fff;
+	background: #4cd964;
+}
+
+
 .iconCard_abou_position{
 	width: 265px;
 }
