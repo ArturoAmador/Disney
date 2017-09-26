@@ -2,6 +2,25 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+.iconCard_abou_position{
+	width: 265px;
+}
+
+.no_listStyle{
+	list-style: none;
+}
+
+.cardShowPosition{
+	background: #354046;
+    height: 100px;
+    position: absolute;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.min_heigth_600px{
+	min-height: 600px;
+}
 
 .margin_130px_top{
 	margin-top: 130px;

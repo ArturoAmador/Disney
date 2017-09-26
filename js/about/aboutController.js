@@ -4,10 +4,23 @@ define(["app","js/about/aboutView", "js/about/aboutModel"], function(app, aboutV
 		element: '.about',
 		event: 'click',
 		handler: about,
+	},
+	{
+		element: '.prueba',
+		event: 'click',
+		handler: prueba,
 	}];	
 
 	function about(){
 		console.log("about");
+	}
+
+	function prueba() {
+		console.log("prueba")
+		$("#CARD_1").removeClass('hide');
+		$("#CARD_1").animate({
+			height: 'toggle'
+		});
 	}
 	
 
