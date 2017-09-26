@@ -13,8 +13,11 @@ require.config({
 define('app', ['js/router'], function(Router) {
 	Router.init();
 	var f7 = new Framework7({
+		pushState: true,
+		pushStateSeparator:'#',
+		pushStateOnLoad:true,
 		material: true,
-		modalTitle: 'eSommelier',
+		modalTitle: 'NovoCalli',
 		animateNavBackIcon: true
 	});
 	var mainView = f7.addView('.view-main', {
