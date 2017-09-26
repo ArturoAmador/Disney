@@ -9,7 +9,17 @@ define(["app","js/about/aboutView", "js/about/aboutModel"], function(app, aboutV
 		element: '.prueba',
 		event: 'click',
 		handler: prueba,
+	},
+	{
+		element: '.dona',
+		event: 'click',
+		handler: dona,
 	}];	
+
+
+	function dona(){
+		app.f7.mainView.loadPage('donaciones.html');
+	}
 
 	function about(){
 		console.log("about");
