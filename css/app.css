@@ -2,6 +2,25 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+
+.margin_130px_top{
+	margin-top: 130px;
+}
+
+.toClose_withe{
+	background-color: #dfdfdf
+}
+
+.position_quehacemos{
+	z-index: 1;
+    position: absolute;
+    top: 497px;
+}
+
+.font_20px{
+	font-size: 20px;
+}
+
 .titleContribuyentes{
 	margin-top: 25px;
 }
