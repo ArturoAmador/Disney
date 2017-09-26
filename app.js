@@ -21,13 +21,10 @@ define('app', ['js/router'], function(Router) {
 		dynamicNavbar: true
 	});
 
-	var API = {
-		url:"http://nerdytrust.com/esommelier/"
-	};
+	
 	return {
 		f7: f7,
 		mainView: mainView,
-		API:API,
 		router: Router
 	};
 });

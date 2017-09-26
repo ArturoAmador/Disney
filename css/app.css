@@ -2,6 +2,48 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+.titleContribuyentes{
+	margin-top: 25px;
+}
+
+.font_body{
+	opacity: 0.87;
+    font-size: 17px;
+
+}
+
+.padding_aling_text_right{
+	padding-right: 10px;
+}
+
+.title_font_special{
+	font-size: 56px;
+	line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    text-align: center;
+}
+
+.contribuyentes{
+	background-color: #f6f6f6;
+}
+
+.indexCOntenMain{
+	margin-top: 5%; 
+}
+
+.width100{
+	width: 100%;
+}
+
+.absoluteH{
+	height: 100%;
+}
+
+.topAling{
+	margin-top:-1.5%; 
+}
+
 .aline_wrapers{
 	margin-bottom: -18%;
 }
@@ -182,16 +224,12 @@
 	margin-left: -1%;
 }
 
-.vinos
-{
-	border-bottom: 3px solid red;
-	visibility: visible;
+.vinos{
+	
 }
 
-.destilados
-{
-	border-bottom: 3px solid red;
-	visibility: visible;
+.destilados{
+	
 }
 
 .starts

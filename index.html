@@ -30,28 +30,19 @@
         <!-- Top Navbar-->
         <div class="navbar body-dark suBarNB">
             <div class="navbar-inner">
-              <div class="left"><a href="#" data-panel="left" class="link open-panel icon-only"><i class="" style="visibility: hidden;">h</i></a></div>
-              <div class="center sliding headline_font" style="margin-left:31.5%;">
-                  Disney
-              </div>
-              <div class="right">
-                <div><a href="" class=""></a></div>
-                <form class="searchbar serchBar">
-                    <div class="searchbar-input">
-                        <input  id="search" type="search" placeholder="BUSCAR VINO" class="font_caption busqueda"/>
-                        <a href="#" class="searchbar-clear font_caption"></a>
-                    </div>
-                    <a href="#" class="searchbar-cancel">Cancel</a>
-                </form>
-              </div>
-              <!--Sub Nav Bar-->
-              <div class="subnavbar body-dark pd-top27 subnav">
-                <div class="buttons-row">
-                  <a href="#tab1" class="button tab-link active vinos body-dark default subheading left_bordernone">Demo</a>
-                  <a href="#tab2" class="button tab-link demo destilados body-dark default subheading">Demo 2</a>
-                </div>
-
-
+              <div class="buttons-row width100">
+                  <a href="#" class="button tab-link active vinos body-dark default subheading left_bordernone about">HOME</a>
+                  <a href="#" class="button tab-link active vinos body-dark default subheading left_bordernone about">About US</a>
+                  <a href="#" class="button tab-link demo destilados body-dark default subheading logros">Logros</a>
+                  <a href="#" class="button tab-link demo destilados body-dark default subheading contacto">Contacto</a>
+                  <a href="#" class="button tab-link demo destilados body-dark default subheading video">Videos</a>
+                  <a href="#" class="button tab-link demo destilados body-dark default subheading news">News</a>
+                  <a href="#" class="button tab-link demo destilados body-dark default subheading donaciones">Donaciones</a>
+              </div>              
+             
+              
+              <div class="subnav">
+              
               </div>
             </div>
 
@@ -92,8 +83,22 @@
 
 
 
+
+
   
   <script data-main="app" src="lib/require.js"></script>
+
+  <script type="text/javascript">
+  $.urlParam = function(name){
+    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+    if (results==null){
+       return null;
+    }
+    else{
+       return decodeURI(results[1]) || 0;
+    }
+  }
+  </script>
 
 </body>
 </html>
