@@ -8,6 +8,13 @@
 	background: #4cd964;
 }
 
+.width_90porcent{
+	width: 90%;
+}
+
+.width_100porcent{
+	width: 100% !important;
+}
 
 .iconCard_abou_position{
 	width: 265px;
