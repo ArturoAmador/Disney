@@ -2,7 +2,21 @@ define(['hbs!js/donaciones/templates/donaciones'], function(template) {
 	var $$ = Framework7.$;
 	function render(params) {
 		console.log('donaciones View Render');
-		$('.donaciones-page').html(template({}));		
+		$('.donaciones-page').html(template({}));
+
+		$("#nav_about").removeClass("class_select");
+		$("#nav_log").removeClass("class_select");
+		$("#nav_home").removeClass("class_select");
+		$("#nav_contac").removeClass("class_select");
+		$("#nav_news").removeClass("class_select");
+
+
+		$("#nav_about").addClass("default");
+		$("#nav_log").addClass("default");
+		$("#nav_home").addClass("default");
+		$("#nav_contac").addClass("default");
+		$("#nav_news").addClass("default");
+
 		bindEvents(params.bindings);
 		
 		var app = params.app;

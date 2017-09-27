@@ -2,6 +2,26 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+.heg_300px{
+	height: 300px;
+}
+
+.donation_button{
+	background-color: #87DA5B !important;
+}
+
+.paddins_navBar{
+	padding: 0px 20px;
+}
+
+.border_radius_nav_buttons{
+	border-radius: 20px !important;
+}
+
+.class_select{
+	background-color: #65b3ea !important; 
+}
+
 .timeline {
         list-style: none !important;
         padding: 20px 0 0 0 !important;
@@ -309,7 +329,7 @@
 .default
 {
 	color: white;
-	background-color: #354046 !important;
+	background-color: #38A0EA !important;
 	border-left: none;
 	border-right: none;
 	border-top: none;
@@ -348,7 +368,7 @@
 }
 
 .body-dark {
-    background: #354046;
+    background: #38A0EA;
 }
 
 .navBar

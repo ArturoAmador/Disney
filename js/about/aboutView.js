@@ -8,6 +8,22 @@ define(['hbs!js/about/templates/about'], function(template) {
 		var app = params.app;
 		var methods = params.methods;
 
+		$("#nav_about").removeClass("class_select");
+		$("#nav_log").removeClass("class_select");
+		$("#nav_home").removeClass("class_select");
+		$("#nav_contac").removeClass("class_select");
+		$("#nav_news").removeClass("class_select");
+
+
+		$("#nav_about").addClass("default");
+		$("#nav_log").addClass("default");
+		$("#nav_home").addClass("default");
+		$("#nav_contac").addClass("default");
+		$("#nav_news").addClass("default");
+
+		$("#nav_about").addClass("class_select");
+		$("#nav_about").removeClass("default");
+
 
 	}
 
