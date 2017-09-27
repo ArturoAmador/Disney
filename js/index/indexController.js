@@ -29,7 +29,17 @@ define(["app","js/index/indexView", "js/index/indexModel"], function(app, IndexV
 		element:'.logros',
 		event:'click',
 		handler:logros
+	},
+	{
+		element:'.home',
+		event:'click',
+		handler:home
 	}];	
+
+	function home(){
+		console.log("Index");
+		app.f7.mainView.loadPage('index.html');
+	}
 
 	function logros(){
 		console.log("logros");

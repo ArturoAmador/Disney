@@ -2,6 +2,11 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+.navBar_font_style{
+	font-size: 10px;
+    font-weight: 200;
+}
+
 .social_NetWork_media{
 	position: absolute;
     bottom: 30px;
