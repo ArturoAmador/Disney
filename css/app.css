@@ -6,6 +6,7 @@
         list-style: none !important;
         padding: 20px 0 0 0 !important;
         left: 50% !important;
+        position:static;
     }
 
 .navBar_font_style{
