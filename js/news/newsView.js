@@ -4,7 +4,7 @@ define(['hbs!js/news/templates/news'], function(template) {
 		console.log('news View Render');
 		$('.news-page').html(template({}));		
 		bindEvents(params.bindings);
-		
+		$(".timeline").removeClass('timeline')
 		var app = params.app;
 		var methods = params.methods;
 
