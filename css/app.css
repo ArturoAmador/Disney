@@ -2,6 +2,10 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+.logros_cards_image{
+    height: 185px;
+}
+
 .heg_300px{
 	height: 300px;
 }
@@ -94,8 +98,8 @@
 	min-height: 600px;
 }
 
-.margin_130px_top{
-	margin-top: 130px;
+.margin_0px_top{
+	margin-top: 0px;
 }
 
 .toClose_withe{
