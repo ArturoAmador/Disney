@@ -2,10 +2,14 @@
     font-family: 'Noto Sans', Quicksand;
 }
 
+.logros_images{
+    height: 18%;
+    width: 100%;
+}
 
 .wrapper_hgt{
 	height: 777px;
-	margin-top: 10px;
+	margin-top: 10px;  
 }
 
 .heg_180px{
