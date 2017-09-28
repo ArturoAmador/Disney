@@ -22,7 +22,10 @@ define(['js/index/indexModel','hbs!js/index/templates/index'], function(Index,te
 
 		app.f7.swiper('.swiper-1', {
 			  pagination:'.swiper-1 .swiper-pagination',
-			  spaceBetween: 50
+			  spaceBetween: 50,
+			  paginationClickable: true,
+			  nextButton: '.swiper-button-next',
+  			  prevButton: '.swiper-button-prev',
 		})
 
 
