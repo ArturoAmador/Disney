@@ -1,5 +1,5 @@
 *{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', Quicksand;
 }
 
 .heg_180px{
@@ -31,7 +31,7 @@
 }
 
 .class_select{
-	background-color: #65b3ea !important; 
+	background-color: #419fa8 !important; 
 }
 
 .timeline {
@@ -343,7 +343,7 @@
 .default
 {
 	color: white;
-	background-color: #38A0EA !important;
+	background-color: #47aeb8 !important;
 	border-left: none;
 	border-right: none;
 	border-top: none;
@@ -382,7 +382,7 @@
 }
 
 .body-dark {
-    background: #38A0EA;
+    background: #47aeb8;
 }
 
 .navBar
