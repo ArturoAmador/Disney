@@ -2,6 +2,10 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+.heg_180px{
+	height: 180px;
+}
+
 .white_color_text_special{
 	color: white;
 }
