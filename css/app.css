@@ -2,6 +2,9 @@
     font-family: 'Noto Sans', Quicksand;
 }
 
+.news_images{
+    height: 225px;
+}
 .logros_images{
     height: 18%;
     width: 100%;
