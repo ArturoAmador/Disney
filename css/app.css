@@ -2,6 +2,12 @@
     font-family: 'Noto Sans', Quicksand;
 }
 
+
+.wrapper_hgt{
+	height: 777px;
+	margin-top: 10px;
+}
+
 .heg_180px{
 	height: 180px;
 }

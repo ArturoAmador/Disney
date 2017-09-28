@@ -20,6 +20,12 @@ define(['js/index/indexModel','hbs!js/index/templates/index'], function(Index,te
 		var methods = params.methods;
 
 
+		app.f7.swiper('.swiper-1', {
+			  pagination:'.swiper-1 .swiper-pagination',
+			  spaceBetween: 50
+		})
+
+
 	}
 
 	function bindEvents(bindings) {
