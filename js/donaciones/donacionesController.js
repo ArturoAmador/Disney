@@ -14,7 +14,16 @@ define(["app","js/donaciones/donacionesView", "js/donaciones/donacionesModel"], 
 		element: '.creditCard',
 		event: 'click',
 		handler: creditCard,
+	},
+	{
+		element: '.acept',
+		event: 'click',
+		handler: acept,
 	}];	
+
+	function acept(){
+		app.f7.alert("Thank you for be part of the change");
+	}
 
 	function creditCard(){
 
@@ -26,6 +35,8 @@ define(["app","js/donaciones/donacionesView", "js/donaciones/donacionesModel"], 
 		}else if ($("#PayPal").prop( "checked" )){
 			console.log("Donas por paypal")
 			$(".fadein").hide(1000);
+		}else{
+			$(".fadein").hide(1000);
 		}
 	}
 
@@ -34,12 +45,22 @@ define(["app","js/donaciones/donacionesView", "js/donaciones/donacionesModel"], 
 	}
 
 	function sentinel(e){
-		$("#100").removeClass("active");
-		$("#200").removeClass("active");
-		$("#500").removeClass("active");
-		$("#otro").removeClass("active");
+		$("#100").removeClass("special_setinel_active");
+		$("#200").removeClass("special_setinel_active");
+		$("#500").removeClass("special_setinel_active");
+		$("#otro").removeClass("special_setinel_active");
+		$("#otro_placeholder").removeClass("special_setinel_active");
 
-		$(e.target).addClass("active");
+		$(e.target).addClass("special_setinel_active");
+
+
+		if ($(e.target).attr('id') === "otro_placeholder" ) {
+			$("#otro").addClass("special_setinel_active");
+		}
+
+		else if ($(e.target).attr('id') === "otro") {
+			$("#otro_placeholder").addClass("special_setinel_active");
+		}
 		
 	}
 	

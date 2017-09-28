@@ -12,13 +12,14 @@ define(["app","js/contacto/contactoView", "js/contacto/contactoModel"], function
 	}];	
 
 	function modalAlert(){
-		app.f7.alert("Gracias por tu interes te contactaresmos a la brevedad");
-		app.f7.addNotification({
+		app.f7.alert("Tanks you we will contact you soon");
 
-			title: 'Framework7',
-        	message: 'This is a simple notification message with title and message'
-
-		});
+		$("#name").val("");
+		$("#apellido").val("");
+		$("#adress").val("");
+		$("#cp").val("");
+		$("#mobile").val("");
+		$("#mail").val("");
 	}
 
 	function about(){

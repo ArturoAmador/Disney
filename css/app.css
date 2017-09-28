@@ -2,14 +2,20 @@
     font-family: 'Noto Sans', Quicksand;
 }
 
-.logros_images{
-    height: 18%;
-    width: 100%;
+.special_setinel_active{
+	background-color: #47aeb8; 
+	color: #fff;
 }
+
+.app_active_green{
+	background: #87da5b;
+    color: #fff;
+}
+
 
 .wrapper_hgt{
 	height: 777px;
-	margin-top: 10px;  
+	margin-top: 10px;
 }
 
 .heg_180px{

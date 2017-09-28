@@ -17,7 +17,7 @@ define('app', ['js/router'], function(Router) {
 		pushStateSeparator:'#',
 		pushStateOnLoad:true,
 		material: true,
-		modalTitle: 'NovoCalli',
+		modalTitle: 'Bajo Techo',
 		animateNavBackIcon: true
 	});
 	var mainView = f7.addView('.view-main', {
