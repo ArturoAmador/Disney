@@ -2,8 +2,12 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
-.logros_cards_image{
-    height: 185px;
+.white_color_text_special{
+	color: white;
+}
+
+.style_logos_max_heg{
+	max-height: 295px;
 }
 
 .heg_300px{
@@ -27,10 +31,12 @@
 }
 
 .timeline {
+
         list-style: none !important;
         padding: 20px 0 0 0 !important;
         left: 50% !important;
         position:static;
+    
     }
 
 .navBar_font_style{
@@ -131,7 +137,7 @@
 }
 
 .title_font_special{
-	font-size: 56px;
+	font-size: 35px;
 	line-height: 1.07143;
     font-weight: 600;
     letter-spacing: -.005em;
