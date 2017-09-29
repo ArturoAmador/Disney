@@ -2,8 +2,16 @@
     font-family: 'Noto Sans', Quicksand;
 }
 
+.blue_color_text_title{
+	color: #47aeb8;
+}
+
 .marg_top_aline_100px{
 	margin-top: 100px;
+}
+
+.width_100porcent{
+	width: 100%;
 }
 
 .esto_esta_mal_pero_es_emergencia{
