@@ -22,6 +22,14 @@ define(['hbs!js/donaciones/templates/donaciones'], function(template) {
 		var app = params.app;
 		var methods = params.methods;
 
+		app.f7.swiper('.swiper-1', {
+			  pagination:'.swiper-1 .swiper-pagination',
+			  spaceBetween: 50,
+			  paginationClickable: true,
+			  nextButton: '.swiper-button-next',
+  			  prevButton: '.swiper-button-prev',
+		})
+
 
 	}
 
