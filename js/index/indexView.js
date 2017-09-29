@@ -28,6 +28,12 @@ define(['js/index/indexModel','hbs!js/index/templates/index'], function(Index,te
   			  prevButton: '.swiper-button-prev',
 		})
 
+		console.log($(window).width());
+
+		if ($(window).width() <= 900) {
+			console.log("movil");
+		}
+
 
 	}
 

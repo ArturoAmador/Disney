@@ -2,6 +2,10 @@
     font-family: 'Noto Sans', Quicksand;
 }
 
+.aline_emergecy{
+	margin-top: -32px;
+}
+
 .min_heg_info{
 	min-height: 263px;
 	max-height: 263px;

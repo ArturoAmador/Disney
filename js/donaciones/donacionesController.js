@@ -22,7 +22,7 @@ define(["app","js/donaciones/donacionesView", "js/donaciones/donacionesModel"], 
 	}];	
 
 	function acept(){
-		app.f7.alert("Thank you for be part of the change");
+		app.f7.alert("Thank you for being part of the change");
 	}
 
 	function creditCard(){

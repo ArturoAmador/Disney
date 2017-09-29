@@ -12,7 +12,7 @@ define(["app","js/contacto/contactoView", "js/contacto/contactoModel"], function
 	}];	
 
 	function modalAlert(){
-		app.f7.alert("Tanks you we will contact you soon");
+		app.f7.alert("Thanks, we will contact you soon.");
 
 		$("#name").val("");
 		$("#apellido").val("");

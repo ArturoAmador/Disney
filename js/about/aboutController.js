@@ -14,7 +14,26 @@ define(["app","js/about/aboutView", "js/about/aboutModel"], function(app, aboutV
 		element: '.dona',
 		event: 'click',
 		handler: dona,
+	},
+	{
+		element: '.index',
+		event: 'click',
+		handler: index,
+	},
+	{
+		element: '.join',
+		event: 'click',
+		handler: join,
 	}];	
+
+
+	function join(){
+		app.f7.mainView.loadPage('contacto.html');
+	}
+
+	function index(){
+		app.f7.mainView.loadPage('index.html');
+	}
 
 
 	function dona(){

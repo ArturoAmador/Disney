@@ -3621,7 +3621,7 @@ label.label-radio input[type="radio"]:checked + .item-media i.icon-form-radio,
 label.label-radio input[type="radio"]:checked ~ .item-after i.icon-form-radio,
 label.label-radio input[type="radio"]:checked ~ .item-inner i.icon-form-radio,
 .form-radio input[type="radio"]:checked ~ i {
-  border-color: #2196f3;
+  border-color: #47AEC4;
 }
 label.label-radio input[type="checkbox"]:checked + .item-media i.icon-form-radio:after,
 label.label-radio input[type="checkbox"]:checked ~ .item-after i.icon-form-radio:after,
@@ -3630,7 +3630,7 @@ label.label-radio input[type="radio"]:checked + .item-media i.icon-form-radio:af
 label.label-radio input[type="radio"]:checked ~ .item-after i.icon-form-radio:after,
 label.label-radio input[type="radio"]:checked ~ .item-inner i.icon-form-radio:after,
 .form-radio input[type="radio"]:checked ~ i:after {
-  background-color: #b72929;
+  background-color: #47AEC4;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
