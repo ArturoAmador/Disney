@@ -2,6 +2,11 @@
     font-family: 'Noto Sans', Quicksand;
 }
 
+.min_heg_info{
+	min-height: 263px;
+	max-height: 263px;
+}
+
 .blue_color_text_title{
 	color: #47aeb8;
 }
@@ -128,6 +133,12 @@
 
 .width_90porcent{
 	width: 90%;
+}
+
+
+.paddiG_icon_info{
+    padding-bottom: 11px;
+    max-height: 263px;
 }
 
 .width_100porcent{
