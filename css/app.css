@@ -2,6 +2,12 @@
     font-family: 'Noto Sans', Quicksand;
 }
 
+.logros_contain_image_perfec_center{
+	background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
 .news_images{
     height: 225px;
 }
